@@ -12,6 +12,25 @@
   border-radius: 5px;
 }
 
+#canvasContainer{
+  position: relative;
+}
+
 #hangman {
+  position: relative;
   text-align: center;
+  border: black 1px solid;
+}
+
+#winner {
+  display: none;
+  position: absolute;
+  left: 30%;
+}
+
+#loser {
+  display: none;
+  position: absolute;
+  top: 35%;
+  left: 35%;
 }
